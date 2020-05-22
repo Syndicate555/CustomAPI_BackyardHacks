@@ -8,3 +8,5 @@ app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 
 // Define Routes
 app.use("/api/users", require("./routes/users"));
+app.use("/api/users", require("./routes/users"));
+app.use("/api/users", require("./routes/users"));
