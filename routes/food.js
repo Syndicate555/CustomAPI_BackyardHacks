@@ -5,5 +5,16 @@ const router = express.Router();
 // @desc get all users foods
 // @access Private
 router.post("/", (req, res) => {
-  res.send("Get logged in user");
+  res.send("Get all food");
+});
+
+router.post("/", (req, res) => {
+  res.send("Add food");
+});
+
+// @route GET api/foods
+// @desc get all users foods
+// @access Private
+router.post("/", (req, res) => {
+  res.send("Get all food");
 });
