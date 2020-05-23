@@ -8,13 +8,17 @@ router.post("/", (req, res) => {
   res.send("Get all food");
 });
 
+// @route POST api/foods
+// @desc Add new food
+// @access Private
+
 router.post("/", (req, res) => {
   res.send("Add food");
 });
 
-// @route GET api/foods
-// @desc get all users foods
+// @route PUT api/foods/:id
+// @desc Update food
 // @access Private
-router.post("/", (req, res) => {
-  res.send("Get all food");
+router.post("/:id", (req, res) => {
+  res.send("Update foods");
 });
